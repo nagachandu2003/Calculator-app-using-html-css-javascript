@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="container1" class="bg1">
+    <div class="box">
+    <div class="top-fields">
+      <h3 id="calc" class="heading1">calc</h3>
+    <!--Theme Changer-->
+    <div class="topright">
+      <h6 id="theme" class="heading1">THEME</h6>
+    <div id="themebackground" class="themechanger">
+      <button id="btn1" class="b1"><p id="ones" class="numb">1</p></button>
+      <button id="btn2" class="b2"><p id="twos" class="numb">2</p></button>
+      <button id="btn3" class="b3"><p id="threes" class="numb">3</p></button>
+    </div>
+  </div>
+  </div>
+  <div class="screen" id="displayScreen">
+    <p id="resulttext">399,981</p>
+  </div>
+  <div id="numPad" class="numpad">
+    <button id="seven" class="numbers">7</button>
+    <button id="eight" class="numbers">8</button>
+    <button id="nine" class="numbers">9</button>
+    <button id="del" class="numbers delete" >DEL</button>
+    <button id="four" class="numbers">4</button>
+    <button id="five" class="numbers">5</button>
+    <button id="six" class="numbers">6</button>
+    <button id="add" class="numbers">+</button>
+    <button id="one" class="numbers">1</button>
+    <button id="two" class="numbers">2</button>
+    <button id="three" class="numbers">3</button>
+    <button id="minus" class="numbers">-</button>
+    <button id="dot" class="numbers">.</button>
+    <button id="zero" class="numbers">0</button>
+    <button id="divide" class="numbers">/</button>
+    <button id="multiply" class="numbers">x</button>
+    <button id="reset" class="numbers reset"  >RESET</button>
+    <button id="result" class="result">=</button>
+  </div>
+  </div>
+</div>
+
+  
+  <div style="display:none;" class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
